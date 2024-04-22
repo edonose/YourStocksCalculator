@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>YourStocksCalculator</title>
+  </head>
+  <body>
+    <h1>All in One Stock Calculator</h1>
+    <hr />
+    <h3>Gain/Loss Calculator based on percentage change</h3>
+    <h5>
+      How to use: Simply put the Original value of a your share/stock in the
+      "Original Value" input, then put up to three changes in the stocks value
+      using percentages. You dont have to fill out all three percentage input
+      boxes!
+    </h5>
+    <p>
+      Original Value: $<input
+        class="biginp"
+        type="number"
+        id="input1"
+        placeholder="1000"
+      />
+    </p>
+    <p>Change(s) in percentage:</p>
+    <p>
+      Change 1: <input type="number" placeholder="13" id="p1" />% Change 2:
+      <input type="number" placeholder="-3" id="p2" />% Change 3:
+      <input type="number" placeholder="30" id="p3" />%
+    </p>
+    <p>The amount of money you have now is:</p>
+    <p class="size1" id="size1">
+      $<span class="Change1" id="Output1">1424.93</span>
+    </p>
+    <p>
+      <button id="calc1">Calculate</button> <button id="Clear1">Clear</button>
+    </p>
+
+    <hr />
+    <h3>Percentage change based on two numbers</h3>
+    <h5>
+      How to use: Put in the Original value and the current value of a
+      share/stock and we'll give you the percentage change!
+    </h5>
+    <p>
+      Original Value: $<input
+        class="biginp"
+        type="number"
+        id="input2"
+        placeholder="1000"
+      />
+    </p>
+    <p>
+      Value after change $<input
+        class="biginp"
+        type="number"
+        id="input3"
+        placeholder="1100"
+      />
+    </p>
+    <p>The change is</p>
+    <p class="size1" id="size2"><span id="output2">10.000</span>%</p>
+    <p>
+      <button id="btn2">Calculate</button> <button id="Clear2">Clear</button>
+    </p>
+  </body>
+</html>

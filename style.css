@@ -1,0 +1,44 @@
+body {
+  width: 600px;
+  margin: auto;
+  background-color: #ceeaf7;
+
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html {
+  background-color: #828a95;
+}
+hr {
+  background-color: #bdc667;
+}
+input {
+  width: 40px;
+  margin: auto;
+  background-color: whitesmoke;
+  border: #bdc667 2px solid;
+  border-radius: 3px;
+}
+button {
+  border: #bdc667 2px solid;
+  border-radius: 3px;
+  height: 30px;
+  font-size: large;
+}
+.biginp {
+  width: 50px;
+}
+.size1 {
+  font-size: 40px;
+  color: lightslategray;
+}
+#input2 {
+  width: 50px;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.158);
+}
